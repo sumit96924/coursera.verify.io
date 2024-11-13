@@ -1,0 +1,102 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left-section {
+    padding: 20px;
+    width: 50%;
+    border-right: 1px solid #ddd;
+}
+
+.course-completion h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.completed-by {
+    background-color: #e6f2ff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.completed-by b {
+    font-size: 18px;
+    color: #0073b1;
+}
+
+.completed-by p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.completed-by a {
+    color: #0073b1;
+    text-decoration: none;
+}
+
+.course-details {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.course-details h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.course-details p {
+    margin: 2px 0;
+    color: #666;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #0073b1;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005f8b;
+}
+
+.right-section {
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.certificate {
+    max-width: 90%;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
